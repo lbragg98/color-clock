@@ -1,0 +1,41 @@
+/* Reset */
+* {
+  box-sizing: border-box;
+}
+
+/* Page base */
+body {
+  margin: 0;
+  background-color: #000000; /* black */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Full-screen centering */
+#root {
+  height: 100vh;
+}
+
+/* Layout container */
+.time-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Clock styling */
+.time-text {
+  color: #00e5ff; /* CYAN — additional color beyond black & white */
+  font-size: 3rem;
+  font-weight: 600;
+  text-align: center;
+  letter-spacing: 0.08rem;
+
+  padding: 1.75rem 3rem;
+  border-radius: 16px;
+
+  background-color: #0f172a; /* dark blue-gray (extra color) */
+  border: 2px solid #00e5ff;
+
+  box-shadow: 0 0 25px rgba(0, 229, 255, 0.4);
+}
